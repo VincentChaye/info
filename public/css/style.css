@@ -50,10 +50,11 @@ menu, ol, ul {
   margin-bottom: 2%;
 }
 .header {
-  background: var(--var-sds-color-background-default-default, lightgrey);
-  border-style: solid;
-  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  background: var(--var-sds-color-background-default-default, rgba(211,211,211,0.9));
+  border-style: groove;
+  border-color: var(--var-sds-color-border-default-default, rgba(50,50,50,0.1));
   border-width: 0px 0px 1px 0px;
+  box-shadow:  0px 0px 5px 0px;
   padding: var(--var-sds-size-space-800, 32px);
   display: flex;
   flex-direction: row;
@@ -281,6 +282,7 @@ menu, ol, ul {
   flex-shrink: 0;
   min-width: 240px;
   position: relative;
+  box-shadow: 0px 4px 0px 0px lightgrey;
 }
 .image2 {
   display: flex;
@@ -414,6 +416,7 @@ menu, ol, ul {
   flex: 1;
   min-width: 240px;
   position: relative;
+  box-shadow:  0px 4px 0px 0px lightgrey;
 }
 .footer {
   background: var(--var-sds-color-background-default-default, #f5f5f5);
@@ -455,6 +458,7 @@ menu, ol, ul {
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  
 }
 .x-logo {
   flex-shrink: 0;
