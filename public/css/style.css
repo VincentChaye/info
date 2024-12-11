@@ -419,7 +419,7 @@ menu, ol, ul {
   box-shadow:  0px 4px 0px 0px lightgrey;
 }
 .footer {
-  background: var(--var-sds-color-background-default-default, #f5f5f5);
+  background: var(--var-sds-color-background-default-default, rgba(211,211,211,0.9));
   border-style: solid;
   border-color: var(--var-sds-color-border-default-default, #d9d9d9);
   border-width: 1px 0px 0px 0px;
@@ -438,6 +438,8 @@ menu, ol, ul {
   width: var(--var-sds-responsive-device-width, 1200px);
   position: relative;
   overflow: hidden;
+  width: 100vw;
+  white-space: nowrap;
 }
 .title4 {
   display: flex;
@@ -518,15 +520,17 @@ menu, ol, ul {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
+  white-space: nowrap;
 }
 .text-strong2 {
   color: var(--var-sds-color-text-default-default, #1e1e1e);
   text-align: left;
   font-family: var(--body-strong-font-family, "Inter-SemiBold", sans-serif);
-  font-size: var(--body-strong-font-size, 16px);
+  font-size: var(--body-strong-font-size, 250px);
   line-height: var(--body-strong-line-height, 140%);
   font-weight: var(--body-strong-font-weight, 600);
   position: relative;
+  white-space: nowrap;
 }
 .text-link-list-item {
   width: 89px;
@@ -647,8 +651,6 @@ menu, ol, ul {
   }
   .footer {
     flex-direction: column-reverse;
-  
-
   }
   .button-list {
     justify-content: center;
